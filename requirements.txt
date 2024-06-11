@@ -1,0 +1,12 @@
+django
+djangorestframework 
+python-dotenv-1.0.1
+pytest
+
+asgiref
+attrs
+iniconfig
+packaging
+pluggy
+pytz
+sqlparse

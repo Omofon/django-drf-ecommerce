@@ -1,0 +1,38 @@
+settings part
+- created settings folder
+- moved settings.py to settings as base
+- create local.py, production.py
+- change manage.py. If settings.DEBUG => local else(false) => production
+- sqlite db for local
+
+secret key
+    activate python shell
+    google django github
+
+    from django.core.management.utils import get_random_secret_key
+    print(get_random_secret_key())
+    paste in settings.base
+
+virtual environment variables
+    python-dotenv
+    create .env file in base project dir
+    transfer secret key
+
+    from dotenv import load_dotenv
+    import os
+    load_dotenv()
+
+    BASE_DIR = Path(__file__).resolve().parent.parent
+
+    SECRET_KEY = os.environ.get("SECRET_KEY")
+
+testing: pytest
+pip install pytest
+create pytest.ini in the folder with manage.py
+    # config file which supports key value pairs
+    [pytest]
+    DJANGO_SETTINGS_MODULE = ecommerce.settings.local
+    python_files = test_*.py
+
+create tests folder
+pip install pytest-django
