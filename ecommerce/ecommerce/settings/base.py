@@ -19,6 +19,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # External Packages
     "rest_framework",
+    # Internal Packages
+    "ecommerce.product",
 ]
 
 MIDDLEWARE = [

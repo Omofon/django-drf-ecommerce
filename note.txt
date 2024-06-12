@@ -37,11 +37,19 @@ create pytest.ini in the folder with manage.py
 create tests folder
 pip install pytest-django
 
-pip install black 
+pip install black - formatter
 
 pip freeze > requirements.txt
 
 PYTHON FORMATTER - USER settings
 PEP 8
 
-pip install flake8
+pip install flake8 - linting
+
+branched github
+
+created product app in tests directory
+create product folder in tests
+
+django mptt - deeply nested models
+pip install django-mptt
