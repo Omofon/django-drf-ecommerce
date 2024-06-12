@@ -36,3 +36,12 @@ create pytest.ini in the folder with manage.py
 
 create tests folder
 pip install pytest-django
+
+pip install black 
+
+pip freeze > requirements.txt
+
+PYTHON FORMATTER - USER settings
+PEP 8
+
+pip install flake8
