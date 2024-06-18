@@ -53,3 +53,40 @@ create product folder in tests
 
 django mptt - deeply nested models
 pip install django-mptt
+
+drf-spectacular and swagger util
+pip install drf-spectacular
+
+manage.py spectacular --file schema.yml
+
+pip install coverage
+    coverage covers the tests in an api showing statements, missing tests, excluded, and coverage%
+
+    coverage run -m pytest
+    coverage html
+
+pip install pytest-cov
+pytest --cov
+
+testing
+    unit testing - "deleting all other codes to test only a single unit of codes" 
+        - models
+        - url configs
+        - view/viewsets
+        - serializer
+
+    end to end testing - testing the behavioural flow of the codes/program
+        - api endpoints
+
+    product testing
+
+    3 stages for building test
+    1. Arrange
+    2. Act
+    3. Assert
+
+pip install pytest-factoryboy
+    factory for unit testing
+
+api_client for end-to-end testing
+    from rest_framework.test import APIClient

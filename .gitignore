@@ -1,4 +1,4 @@
-notes.txt
+note.txt
 venv/
 .pytest_cache
 **__pycache__/
@@ -6,3 +6,6 @@ db.sqlite
 .env
 .coverage
 .vscode
+schema.yml
+*-commands.md
+htmlcov/
